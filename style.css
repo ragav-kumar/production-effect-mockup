@@ -1,0 +1,121 @@
+aside {
+  color: black;
+  background-color: yellow;
+  border: 1px solid black;
+  display: block;
+  padding: 1em;
+  max-width: 20em;
+  margin: 0.5em;
+}
+aside.wide {
+  max-width: 40em;
+}
+.corner {
+  position: fixed;
+}
+.corner.top-right {
+  top: 0;
+  right: 0;
+}
+.corner.top-left {
+  top: 0;
+  left: 0;
+}
+.corner.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+.corner.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+.wrap {
+  width: 100%;
+  height: 100vh;
+}
+form button {
+  font-size: 18px;
+  padding: 5px;
+}
+.introduction {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.introduction div {
+  text-align: center;
+  padding: 10em 0;
+  margin-bottom: 1em;
+  max-height: 30em;
+  min-width: 60vw;
+  font-size: 20px;
+  border: 1px dotted black;
+}
+.introduction label {
+  min-height: 3em;
+  font-size: 18px;
+}
+.tracker {
+  max-width: 100%;
+  margin-top: 5em;
+}
+.present {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+  font-family: monospace;
+  line-height: 2em;
+}
+.present span {
+  display: block;
+  text-align: center;
+}
+.present div {
+  text-align: center;
+  padding: 10em 0;
+  margin-bottom: 1em;
+  max-height: 30em;
+  min-width: 60vw;
+  font-size: 20px;
+  border: 1px dotted black;
+}
+i {
+  font-style: normal;
+  font-family: monospace;
+}
+i::before {
+  content: '<';
+}
+i::after {
+  content: '>';
+}
+.cue {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px dotted black;
+  padding: 1em;
+  margin: 1em;
+}
+.cue.left {
+  left: 0;
+}
+.cue.right {
+  right: 0;
+}
+#implicit .implicit {
+  color: #777;
+}
+#implicit .left {
+  color: #606060;
+}
+#implicit .right {
+  color: #909090;
+}
