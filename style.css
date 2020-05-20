@@ -102,19 +102,19 @@ i::after {
 }
 .cue {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
   font-size: 20px;
   font-weight: bold;
   border: 1px dotted black;
   padding: 1em;
   margin: 1em;
+  bottom: 0;
+  text-align: center;
 }
 .cue.left {
-  left: 0;
+  right: calc(50% + 1em);
 }
 .cue.right {
-  right: 0;
+  left: calc(50% + 1em);
 }
 #implicit .implicit {
   color: #777;
